@@ -22,18 +22,18 @@ $i=$this->id;
 $c=$this->cgpa;
 return array($n,$i,$c);
 }
-function get_name()
-{
-return $this->name;
-}
-function get_id()
-{
-return $this->id;
-}
-function get_cgpa()
-{
-return $this->cgpa;
-}
+// function get_name()
+// {
+// return $this->name;
+// }
+// function get_id()
+// {
+// return $this->id;
+// }
+// function get_cgpa()
+// {
+// return $this->cgpa;
+// }
 }
 $s=new Student();
 $s->set_data('Arpita','18-XXXXX-1',4.0);
